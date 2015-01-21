@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B824DB715183F44008515E4 /* FMEServerNotificationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B824DB515183F44008515E4 /* FMEServerNotificationManager.h */; };
+		6B824DB815183F44008515E4 /* FMEServerNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B824DB615183F44008515E4 /* FMEServerNotificationManager.m */; };
+		6BA83B0B18C9AE810077AE2B /* FMEServerAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BA83B0918C9AE810077AE2B /* FMEServerAccount.h */; };
+		6BA83B0C18C9AE810077AE2B /* FMEServerAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA83B0A18C9AE810077AE2B /* FMEServerAccount.m */; };
+		6BBE86BD18C5B8C400156424 /* FMEServerREST.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BBE86BB18C5B8C400156424 /* FMEServerREST.m */; };
+		6BBE86BE18C5B8C400156424 /* FMEServerREST.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BBE86BC18C5B8C400156424 /* FMEServerREST.h */; };
+		6BD26A191599273700F03762 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BD26A181599273700F03762 /* CoreLocation.framework */; };
+		6BF6A05515171BF1004284E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF6A05415171BF1004284E9 /* Foundation.framework */; };
+		6BF6A06315171BF1004284E9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF6A06215171BF1004284E9 /* SenTestingKit.framework */; };
+		6BF6A06515171BF1004284E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF6A06415171BF1004284E9 /* UIKit.framework */; };
+		6BF6A06615171BF1004284E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF6A05415171BF1004284E9 /* Foundation.framework */; };
+		6BF6A06915171BF1004284E9 /* libFMEServer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF6A05115171BF1004284E9 /* libFMEServer.a */; };
+		6BF6A06F15171BF1004284E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6BF6A06D15171BF1004284E9 /* InfoPlist.strings */; };
+		6BF6A07215171BF1004284E9 /* FMEServerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF6A07115171BF1004284E9 /* FMEServerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BF6A06715171BF1004284E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BF6A04815171BF1004284E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BF6A05015171BF1004284E9;
+			remoteInfo = FMEServer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B824DB515183F44008515E4 /* FMEServerNotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMEServerNotificationManager.h; sourceTree = "<group>"; };
+		6B824DB615183F44008515E4 /* FMEServerNotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMEServerNotificationManager.m; sourceTree = "<group>"; };
+		6BA83B0918C9AE810077AE2B /* FMEServerAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMEServerAccount.h; sourceTree = "<group>"; };
+		6BA83B0A18C9AE810077AE2B /* FMEServerAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMEServerAccount.m; sourceTree = "<group>"; };
+		6BBE86BB18C5B8C400156424 /* FMEServerREST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMEServerREST.m; sourceTree = "<group>"; };
+		6BBE86BC18C5B8C400156424 /* FMEServerREST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMEServerREST.h; sourceTree = "<group>"; };
+		6BD26A181599273700F03762 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6BF6A05115171BF1004284E9 /* libFMEServer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFMEServer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BF6A05415171BF1004284E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6BF6A05815171BF1004284E9 /* FMEServer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FMEServer-Prefix.pch"; sourceTree = "<group>"; };
+		6BF6A06115171BF1004284E9 /* FMEServerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMEServerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BF6A06215171BF1004284E9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		6BF6A06415171BF1004284E9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		6BF6A06C15171BF1004284E9 /* FMEServerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FMEServerTests-Info.plist"; sourceTree = "<group>"; };
+		6BF6A06E15171BF1004284E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6BF6A07015171BF1004284E9 /* FMEServerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMEServerTests.h; sourceTree = "<group>"; };
+		6BF6A07115171BF1004284E9 /* FMEServerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMEServerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BF6A04E15171BF1004284E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BD26A191599273700F03762 /* CoreLocation.framework in Frameworks */,
+				6BF6A05515171BF1004284E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BF6A05D15171BF1004284E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF6A06315171BF1004284E9 /* SenTestingKit.framework in Frameworks */,
+				6BF6A06515171BF1004284E9 /* UIKit.framework in Frameworks */,
+				6BF6A06615171BF1004284E9 /* Foundation.framework in Frameworks */,
+				6BF6A06915171BF1004284E9 /* libFMEServer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BF6A04615171BF1004284E9 = {
+			isa = PBXGroup;
+			children = (
+				6BD26A181599273700F03762 /* CoreLocation.framework */,
+				6BF6A05615171BF1004284E9 /* FMEServer */,
+				6BF6A06A15171BF1004284E9 /* FMEServerTests */,
+				6BF6A05315171BF1004284E9 /* Frameworks */,
+				6BF6A05215171BF1004284E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BF6A05215171BF1004284E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BF6A05115171BF1004284E9 /* libFMEServer.a */,
+				6BF6A06115171BF1004284E9 /* FMEServerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BF6A05315171BF1004284E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BF6A05415171BF1004284E9 /* Foundation.framework */,
+				6BF6A06215171BF1004284E9 /* SenTestingKit.framework */,
+				6BF6A06415171BF1004284E9 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BF6A05615171BF1004284E9 /* FMEServer */ = {
+			isa = PBXGroup;
+			children = (
+				6BBE86BB18C5B8C400156424 /* FMEServerREST.m */,
+				6BBE86BC18C5B8C400156424 /* FMEServerREST.h */,
+				6BF6A05715171BF1004284E9 /* Supporting Files */,
+				6B824DB515183F44008515E4 /* FMEServerNotificationManager.h */,
+				6B824DB615183F44008515E4 /* FMEServerNotificationManager.m */,
+				6BA83B0918C9AE810077AE2B /* FMEServerAccount.h */,
+				6BA83B0A18C9AE810077AE2B /* FMEServerAccount.m */,
+			);
+			path = FMEServer;
+			sourceTree = "<group>";
+		};
+		6BF6A05715171BF1004284E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BF6A05815171BF1004284E9 /* FMEServer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6BF6A06A15171BF1004284E9 /* FMEServerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6BF6A07015171BF1004284E9 /* FMEServerTests.h */,
+				6BF6A07115171BF1004284E9 /* FMEServerTests.m */,
+				6BF6A06B15171BF1004284E9 /* Supporting Files */,
+			);
+			path = FMEServerTests;
+			sourceTree = "<group>";
+		};
+		6BF6A06B15171BF1004284E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BF6A06C15171BF1004284E9 /* FMEServerTests-Info.plist */,
+				6BF6A06D15171BF1004284E9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6BF6A04F15171BF1004284E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BA83B0B18C9AE810077AE2B /* FMEServerAccount.h in Headers */,
+				6BBE86BE18C5B8C400156424 /* FMEServerREST.h in Headers */,
+				6B824DB715183F44008515E4 /* FMEServerNotificationManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6BF6A05015171BF1004284E9 /* FMEServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BF6A07515171BF1004284E9 /* Build configuration list for PBXNativeTarget "FMEServer" */;
+			buildPhases = (
+				6BF6A04D15171BF1004284E9 /* Sources */,
+				6BF6A04E15171BF1004284E9 /* Frameworks */,
+				6BF6A04F15171BF1004284E9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMEServer;
+			productName = FMEServer;
+			productReference = 6BF6A05115171BF1004284E9 /* libFMEServer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6BF6A06015171BF1004284E9 /* FMEServerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BF6A07815171BF1004284E9 /* Build configuration list for PBXNativeTarget "FMEServerTests" */;
+			buildPhases = (
+				6BF6A05C15171BF1004284E9 /* Sources */,
+				6BF6A05D15171BF1004284E9 /* Frameworks */,
+				6BF6A05E15171BF1004284E9 /* Resources */,
+				6BF6A05F15171BF1004284E9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BF6A06815171BF1004284E9 /* PBXTargetDependency */,
+			);
+			name = FMEServerTests;
+			productName = FMEServerTests;
+			productReference = 6BF6A06115171BF1004284E9 /* FMEServerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BF6A04815171BF1004284E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Safe Software Inc.";
+			};
+			buildConfigurationList = 6BF6A04B15171BF1004284E9 /* Build configuration list for PBXProject "FMEServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6BF6A04615171BF1004284E9;
+			productRefGroup = 6BF6A05215171BF1004284E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BF6A05015171BF1004284E9 /* FMEServer */,
+				6BF6A06015171BF1004284E9 /* FMEServerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BF6A05E15171BF1004284E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF6A06F15171BF1004284E9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BF6A05F15171BF1004284E9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BF6A04D15171BF1004284E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B824DB815183F44008515E4 /* FMEServerNotificationManager.m in Sources */,
+				6BA83B0C18C9AE810077AE2B /* FMEServerAccount.m in Sources */,
+				6BBE86BD18C5B8C400156424 /* FMEServerREST.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BF6A05C15171BF1004284E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF6A07215171BF1004284E9 /* FMEServerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BF6A06815171BF1004284E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BF6A05015171BF1004284E9 /* FMEServer */;
+			targetProxy = 6BF6A06715171BF1004284E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6BF6A06D15171BF1004284E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BF6A06E15171BF1004284E9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BF6A07315171BF1004284E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "../../**";
+			};
+			name = Debug;
+		};
+		6BF6A07415171BF1004284E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "../../**";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BF6A07615171BF1004284E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/FMEServer.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FMEServer/FMEServer-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "../../**";
+			};
+			name = Debug;
+		};
+		6BF6A07715171BF1004284E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/FMEServer.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FMEServer/FMEServer-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "../../**";
+			};
+			name = Release;
+		};
+		6BF6A07915171BF1004284E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FMEServer/FMEServer-Prefix.pch";
+				INFOPLIST_FILE = "FMEServerTests/FMEServerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		6BF6A07A15171BF1004284E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FMEServer/FMEServer-Prefix.pch";
+				INFOPLIST_FILE = "FMEServerTests/FMEServerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BF6A04B15171BF1004284E9 /* Build configuration list for PBXProject "FMEServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BF6A07315171BF1004284E9 /* Debug */,
+				6BF6A07415171BF1004284E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BF6A07515171BF1004284E9 /* Build configuration list for PBXNativeTarget "FMEServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BF6A07615171BF1004284E9 /* Debug */,
+				6BF6A07715171BF1004284E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BF6A07815171BF1004284E9 /* Build configuration list for PBXNativeTarget "FMEServerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BF6A07915171BF1004284E9 /* Debug */,
+				6BF6A07A15171BF1004284E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BF6A04815171BF1004284E9 /* Project object */;
+}

@@ -1,0 +1,265 @@
+/*============================================================================= 
+ 
+   Name     : Localizable.strings
+ 
+   System   : FME Reporter iOS App
+ 
+   Language : N/A
+ 
+   Purpose  : Localizable Strings (en)
+ 
+         Copyright (c) 2013 - 2014, Safe Software Inc. All rights reserved. 
+ 
+   Redistribution and use of this sample code in source and binary forms, with  
+   or without modification, are permitted provided that the following  
+   conditions are met: 
+   * Redistributions of source code must retain the above copyright notice,  
+     this list of conditions and the following disclaimer. 
+   * Redistributions in binary form must reproduce the above copyright notice,  
+     this list of conditions and the following disclaimer in the documentation  
+     and/or other materials provided with the distribution. 
+ 
+   THIS SAMPLE CODE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS  
+   "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED  
+   TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR  
+   PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR  
+   CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,  
+   EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,  
+   PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;  
+   OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,  
+   WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR  
+   OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SAMPLE CODE, EVEN IF  
+   ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
+ 
+=============================================================================*/ 
+
+/* No comment provided by engineer. */
+"%@ Meters" = "%@ Meters";
+
+/* No comment provided by engineer. */
+"%i Min" = "%i Min";
+
+/* No comment provided by engineer. */
+"%i Sec" = "%i Sec";
+
+/* No comment provided by engineer. */
+"%u Subscribed" = "%u Subscribed";
+
+/* No comment provided by engineer. */
+"%u Tracked" = "%u Selected";
+
+/* No comment provided by engineer. */
+"<New Alert>" = "<New Alert>";
+
+/* No comment provided by engineer. */
+"Account" = "Account";
+
+/* No comment provided by engineer. */
+"Alerts" = "Alerts";
+
+/* No comment provided by engineer. */
+"Cancel" = "Cancel";
+
+/* No comment provided by engineer. */
+"Close" = "Close";
+
+/* No comment provided by engineer. */
+"Details" = "Details";
+
+/* No comment provided by engineer. */
+"Disabled" = "Disabled";
+
+/* No comment provided by engineer. */
+"Do you want to remove all pins?" = "Do you want to remove all pins?";
+
+/* No comment provided by engineer. */
+"Do you want to save the change and remove all previous subscriptions?" = "Do you want to save the change and remove all previous subscriptions?";
+
+/* No comment provided by engineer. */
+"Don't Save" = "Don't Save";
+
+/* No comment provided by engineer. */
+"Finish" = "Finish";
+
+/* No comment provided by engineer. */
+"Loading Topics\nPlease Wait ..." = "Loading Topics\nPlease Wait ...";
+
+/* No comment provided by engineer. */
+"Login Failure" = "Login Failure";
+
+/* No comment provided by engineer. */
+"Map View" = "Map View";
+
+/* No comment provided by engineer. */
+"Please check your network connection and your account information." = "Please check your network connection and your account information.";
+
+/* No comment provided by engineer. */
+"Please make sure the network settings, host and login information are correct" = "Please make sure the network settings, host and login information are correct";
+
+/* No comment provided by engineer. */
+"Powered by FME Server" = "Powered by FME Server";
+
+/* No comment provided by engineer. */
+"Remove All Pins" = "Remove All Pins";
+
+/* No comment provided by engineer. */
+"Retry" = "Retry";
+
+/* No comment provided by engineer. */
+"Save" = "Save";
+
+/* No comment provided by engineer. */
+"Settings" = "Settings";
+
+/* No comment provided by engineer. */
+"Topics" = "Topics";
+
+/* No comment provided by engineer. */
+"Unable To Load Topics" = "Unable To Load Topics";
+
+/* No comment provided by engineer. */
+"FME Server Account Information" = "FME Server Account Information";
+
+/* No comment provided by engineer. */
+"Location Tracking" = "Location Options";
+
+/* No comment provided by engineer. */
+"Host" = "Host";
+
+/* No comment provided by engineer. */
+"Username" = "Username";
+
+/* No comment provided by engineer. */
+"Password" = "Password";
+
+/* No comment provided by engineer. */
+"Subscribed Topics" = "Topics";
+
+/* No comment provided by engineer. */
+"Tracked Topics" = "Topics";
+
+/* No comment provided by engineer. */
+"High Precision" = "High Precision";
+
+/* No comment provided by engineer. */
+"Time Interval" = "Time Interval";
+
+/* No comment provided by engineer. */
+"Distance Filter" = "Distance Filter";
+
+/* No comment provided by engineer. */
+"1 Min" = "1 Min";
+
+/* No comment provided by engineer. */
+"%i Mins" = "%i Mins";
+
+/* No comment provided by engineer. */
+"1 Sec" = "1 Sec";
+
+/* No comment provided by engineer. */
+"%i Secs" = "%i Secs";
+
+/* No comment provided by engineer. */
+"Previous subscriptions will be removed." = "Changing the host or the username when there are subscribed topics from the previous account will remove those subscriptions.";
+
+/* No comment provided by engineer. */
+"Set a time interval" = "Send the tracked topics the current device location for every time interval. Either the time interval or the distance filter must be set. If the time interval is not set (0 mins 0 secs), the distance filter will be automatically set to the default.";
+
+/* No comment provided by engineer. */
+"Set a distance filter" = "Send the tracked topics the current device location every time the distance has passed. Either the time interval or the distance filter must be set. If the distance filter is not set (0 meters), the time interval will be automatically set to the default.";
+
+/* No comment provided by engineer. */
+"Version" = "Version";
+
+/* No comment provided by engineer. */
+"Safe Software Homepage" = "About Safe Software";
+
+/* No comment provided by engineer. */
+"FME Server Homepage" = "About FME Server";
+
+/* No comment provided by engineer. */
+"FME Server Notification Service" = "About Notification Service";
+
+/* No comment provided by engineer. */
+"About" = "About";
+
+/* No comment provided by engineer. */
+"Powered by FME Server" = "Powered by FME Server";
+
+/* No comment provided by engineer. */
+"Copyright" = "Copyright © 2013 by Safe Software Inc. All rights reserved.";
+
+/* No comment provided by engineer. */
+"Verifying" = "Verifying";
+
+/* No comment provided by engineer. */
+"Saving" = "Saving";
+
+/* No comment provided by engineer. */
+"Metadata" = "User Data";
+
+/* No comment provided by engineer. */
+"Entry" = "Entry";
+
+/* No comment provided by engineer. */
+"Entries" = "Entries";
+
+/* No comment provided by engineer. */
+"Edit Metadata" = "Edit Data";
+
+/* No comment provided by engineer. */
+"New Metadata" = "New Data";
+
+/* No comment provided by engineer. */
+"FME Reporter" = "FME Reporter";
+
+/* No comment provided by engineer. */
+"Key" = "Key";
+
+/* No comment provided by engineer. */
+"Value" = "Value";
+
+/* No comment provided by engineer. */
+"Send" = "Report";
+
+/* No comment provided by engineer. */
+"Auto Report Location" = "Auto Report Location";
+
+/* No comment provided by engineer. */
+"Insufficient Server Info" = "Server Info Missing";
+
+/* No comment provided by engineer. */
+"Alert View Message - Insufficient Server Info" = "Please enter the host, username, and password and then choose at least one topic to report your current location.";
+
+/* No comment provided by engineer. */
+"Location Reported Successfully" = "Location Reported";
+
+/* No comment provided by engineer. */
+"Unable To Report Location" = "Unable To Report Location";
+
+/* No comment provided by engineer. */
+"Host Unreachable" = "Host Unreachable";
+
+/* No comment provided by engineer. */
+"Please check the network connection and the host name" = "Please check the network connection and the host name";
+
+/* No comment provided by engineer. */
+"Topic Not Found" = "Topic Not Found";
+
+/* No comment provided by engineer. */
+"The topic %@ does not exist on the server any more. It will be removed from the device." = "The topic %@ does not exist on the server any more. It will be removed from the device.";
+
+/* No comment provided by engineer. */
+"The topics %@ do not exist on the server any more. They will be removed from the device." = "The topics %@ do not exist on the server any more. They will be removed from the device.";
+
+/* No comment provided by engineer. */
+"Failed to subscribe" = "Failed to subscribe";
+
+/* No comment provided by engineer. */
+"Failed to cancel subscription" = "Failed to cancel subscription";
+
+/* No comment provided by engineer. */
+"Unable to subscribe to %@" = "無法訂閱 %@";
+
+/* No comment provided by engineer. */
+"Unable to cancel your subscription from %@" = "無法取消訂閱 %@";

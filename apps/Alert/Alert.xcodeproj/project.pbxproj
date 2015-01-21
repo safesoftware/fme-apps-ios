@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B18E8C117E8333D00B79E39 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B18E8C017E8333D00B79E39 /* Images.xcassets */; };
+		6B3B1787161AD51600168D42 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B3B1786161AD51600168D42 /* Default.png */; };
+		6B3DD34F152A45FA0085104C /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 6B3DD34E152A45FA0085104C /* iTunesArtwork */; };
+		6B3FC4FA1618E27A00339D1A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B3FC4F91618E27A00339D1A /* Default-568h@2x.png */; };
+		6B4EAA791517F5AF007940F2 /* FMETopicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EAA781517F5AF007940F2 /* FMETopicsViewController.m */; };
+		6B545F061627916500C725A1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B545F051627916500C725A1 /* SystemConfiguration.framework */; };
+		6B679516168309D4008E8F82 /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B679514168309D4008E8F82 /* AppIcon.png */; };
+		6B679517168309D4008E8F82 /* AppIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B679515168309D4008E8F82 /* AppIcon@2x.png */; };
+		6B79B250159FA9CA000216F0 /* FMESettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B79B24F159FA9CA000216F0 /* FMESettingsViewController.m */; };
+		6B7E2E2815AD51BF00E46548 /* FMEDistanceFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B7E2E2515AD51BF00E46548 /* FMEDistanceFilterViewController.m */; };
+		6B7E2E2915AD51BF00E46548 /* FMETimeIntervalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B7E2E2715AD51BF00E46548 /* FMETimeIntervalViewController.m */; };
+		6B803787151A233700E7F394 /* FMEMessagesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B803786151A233700E7F394 /* FMEMessagesTableViewCell.m */; };
+		6B81C58315D37183002E1AFB /* FMEAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B81C58215D37183002E1AFB /* FMEAboutViewController.m */; };
+		6B824DBB15185026008515E4 /* libNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B824DBA15185026008515E4 /* libNetwork.a */; };
+		6B82C59E15E765C8002FD1D5 /* FMEActivityIndicatorTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B82C59D15E765C8002FD1D5 /* FMEActivityIndicatorTitleView.m */; };
+		6B8B24E7151ADEB600D5EF29 /* FMEPinDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8B24E6151ADEB600D5EF29 /* FMEPinDetailsViewController.m */; };
+		6B8DCBD915BFC73600A3CE55 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B8DCBD715BFC73600A3CE55 /* Localizable.strings */; };
+		6B958FE61795C01C00D44F30 /* FMEMessageEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B958FE51795C01C00D44F30 /* FMEMessageEditController.m */; };
+		6BA59627151A7FD300033FB9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BA59626151A7FD300033FB9 /* Default@2x.png */; };
+		6BA9C51A15ACC66500484FFC /* FMETopicDescriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA9C51915ACC66500484FFC /* FMETopicDescriptionViewController.m */; };
+		6BDACF8715199D3000EFD676 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BDACF8615199D3000EFD676 /* MapKit.framework */; };
+		6BDACF8A15199DC000EFD676 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BDACF8915199DC000EFD676 /* CoreLocation.framework */; };
+		6BDACF8D1519A82500EFD676 /* FMEMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDACF8C1519A82500EFD676 /* FMEMapViewController.m */; };
+		6BE2D32F15B21B9B00CFEEAF /* FMELocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE2D32E15B21B9B00CFEEAF /* FMELocationManager.m */; };
+		6BF69FFE15171A9C004284E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF69FFD15171A9C004284E9 /* UIKit.framework */; };
+		6BF6A00015171A9C004284E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF69FFF15171A9C004284E9 /* Foundation.framework */; };
+		6BF6A00215171A9C004284E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF6A00115171A9C004284E9 /* CoreGraphics.framework */; };
+		6BF6A00815171A9C004284E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6BF6A00615171A9C004284E9 /* InfoPlist.strings */; };
+		6BF6A00A15171A9C004284E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF6A00915171A9C004284E9 /* main.m */; };
+		6BF6A00E15171A9C004284E9 /* FMEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF6A00D15171A9C004284E9 /* FMEAppDelegate.m */; };
+		6BF6A01115171A9C004284E9 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BF6A00F15171A9C004284E9 /* MainStoryboard_iPhone.storyboard */; };
+		6BF6A01415171A9C004284E9 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BF6A01215171A9C004284E9 /* MainStoryboard_iPad.storyboard */; };
+		6BF6A02215171A9C004284E9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF6A02115171A9C004284E9 /* SenTestingKit.framework */; };
+		6BF6A02315171A9C004284E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF69FFD15171A9C004284E9 /* UIKit.framework */; };
+		6BF6A02415171A9C004284E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF69FFF15171A9C004284E9 /* Foundation.framework */; };
+		6BF6A02C15171A9C004284E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6BF6A02A15171A9C004284E9 /* InfoPlist.strings */; };
+		6BF6A02F15171A9C004284E9 /* AlertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF6A02E15171A9C004284E9 /* AlertTests.m */; };
+		6BF6A04415171B64004284E9 /* libExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF6A04315171B64004284E9 /* libExtension.a */; };
+		6BF6A08315171C37004284E9 /* libFMEServer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF6A08215171C37004284E9 /* libFMEServer.a */; };
+		6BF6A08A15171E30004284E9 /* FMEServerAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF6A08915171E30004284E9 /* FMEServerAccountViewController.m */; };
+		6BF6A08D1517300F004284E9 /* FMEMessagesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF6A08C1517300F004284E9 /* FMEMessagesTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BF6A02515171A9C004284E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BF69FF015171A9C004284E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BF69FF815171A9C004284E9;
+			remoteInfo = Alert;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B18E8C017E8333D00B79E39 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6B3B1786161AD51600168D42 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6B3DD34E152A45FA0085104C /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		6B3FC4F91618E27A00339D1A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6B4EAA771517F5AF007940F2 /* FMETopicsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMETopicsViewController.h; sourceTree = "<group>"; };
+		6B4EAA781517F5AF007940F2 /* FMETopicsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMETopicsViewController.m; sourceTree = "<group>"; };
+		6B545F051627916500C725A1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6B679514168309D4008E8F82 /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon.png; path = Resources/AppIcon.png; sourceTree = "<group>"; };
+		6B679515168309D4008E8F82 /* AppIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon@2x.png"; path = "Resources/AppIcon@2x.png"; sourceTree = "<group>"; };
+		6B6EAF0015D5BA33006B20C6 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		6B79B24E159FA9CA000216F0 /* FMESettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = FMESettingsViewController.h; sourceTree = "<group>"; };
+		6B79B24F159FA9CA000216F0 /* FMESettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = FMESettingsViewController.m; sourceTree = "<group>"; };
+		6B7D4F8915BD054900B15626 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "/Users/alau/Development/mobile/trunk/ios/apps/Alert/AlertTests/zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<absolute>"; };
+		6B7E2E2415AD51BF00E46548 /* FMEDistanceFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMEDistanceFilterViewController.h; path = ../../../foundation/ViewControllers/FMEDistanceFilterViewController.h; sourceTree = "<group>"; };
+		6B7E2E2515AD51BF00E46548 /* FMEDistanceFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMEDistanceFilterViewController.m; path = ../../../foundation/ViewControllers/FMEDistanceFilterViewController.m; sourceTree = "<group>"; };
+		6B7E2E2615AD51BF00E46548 /* FMETimeIntervalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMETimeIntervalViewController.h; path = ../../../foundation/ViewControllers/FMETimeIntervalViewController.h; sourceTree = "<group>"; };
+		6B7E2E2715AD51BF00E46548 /* FMETimeIntervalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMETimeIntervalViewController.m; path = ../../../foundation/ViewControllers/FMETimeIntervalViewController.m; sourceTree = "<group>"; };
+		6B803785151A233700E7F394 /* FMEMessagesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMEMessagesTableViewCell.h; sourceTree = "<group>"; };
+		6B803786151A233700E7F394 /* FMEMessagesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMEMessagesTableViewCell.m; sourceTree = "<group>"; };
+		6B81C58115D37183002E1AFB /* FMEAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMEAboutViewController.h; path = ../../../foundation/ViewControllers/FMEAboutViewController.h; sourceTree = "<group>"; };
+		6B81C58215D37183002E1AFB /* FMEAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMEAboutViewController.m; path = ../../../foundation/ViewControllers/FMEAboutViewController.m; sourceTree = "<group>"; };
+		6B824DBA15185026008515E4 /* libNetwork.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libNetwork.a; path = "../../foundation/Network/build/Release-iphoneos/libNetwork.a"; sourceTree = "<group>"; };
+		6B82C59C15E765C8002FD1D5 /* FMEActivityIndicatorTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMEActivityIndicatorTitleView.h; path = ../../../foundation/Views/FMEActivityIndicatorTitleView.h; sourceTree = "<group>"; };
+		6B82C59D15E765C8002FD1D5 /* FMEActivityIndicatorTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMEActivityIndicatorTitleView.m; path = ../../../foundation/Views/FMEActivityIndicatorTitleView.m; sourceTree = "<group>"; };
+		6B8B24E5151ADEB500D5EF29 /* FMEPinDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMEPinDetailsViewController.h; sourceTree = "<group>"; };
+		6B8B24E6151ADEB600D5EF29 /* FMEPinDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMEPinDetailsViewController.m; sourceTree = "<group>"; };
+		6B8DCBD815BFC73600A3CE55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6B8DCBDB15BFC74000A3CE55 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		6B958FE41795C01C00D44F30 /* FMEMessageEditController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMEMessageEditController.h; path = ../../../foundation/ViewControllers/FMEMessageEditController.h; sourceTree = "<group>"; };
+		6B958FE51795C01C00D44F30 /* FMEMessageEditController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMEMessageEditController.m; path = ../../../foundation/ViewControllers/FMEMessageEditController.m; sourceTree = "<group>"; };
+		6BA59626151A7FD300033FB9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6BA9C51815ACC66500484FFC /* FMETopicDescriptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMETopicDescriptionViewController.h; sourceTree = "<group>"; };
+		6BA9C51915ACC66500484FFC /* FMETopicDescriptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMETopicDescriptionViewController.m; sourceTree = "<group>"; };
+		6BDACF8615199D3000EFD676 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		6BDACF8915199DC000EFD676 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6BDACF8B1519A82500EFD676 /* FMEMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMEMapViewController.h; sourceTree = "<group>"; };
+		6BDACF8C1519A82500EFD676 /* FMEMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMEMapViewController.m; sourceTree = "<group>"; };
+		6BE2D32D15B21B9B00CFEEAF /* FMELocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = FMELocationManager.h; path = ../../../foundation/Location/FMELocationManager.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		6BE2D32E15B21B9B00CFEEAF /* FMELocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = FMELocationManager.m; path = ../../../foundation/Location/FMELocationManager.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		6BF69FF915171A9C004284E9 /* Alert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BF69FFD15171A9C004284E9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6BF69FFF15171A9C004284E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6BF6A00115171A9C004284E9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6BF6A00515171A9C004284E9 /* Alert-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Alert-Info.plist"; sourceTree = "<group>"; };
+		6BF6A00715171A9C004284E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6BF6A00915171A9C004284E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BF6A00B15171A9C004284E9 /* Alert-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Alert-Prefix.pch"; sourceTree = "<group>"; };
+		6BF6A00C15171A9C004284E9 /* FMEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = FMEAppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		6BF6A00D15171A9C004284E9 /* FMEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = FMEAppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		6BF6A01015171A9C004284E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		6BF6A01315171A9C004284E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		6BF6A02015171A9C004284E9 /* AlertTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlertTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BF6A02115171A9C004284E9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		6BF6A02915171A9C004284E9 /* AlertTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlertTests-Info.plist"; sourceTree = "<group>"; };
+		6BF6A02B15171A9C004284E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6BF6A02D15171A9C004284E9 /* AlertTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertTests.h; sourceTree = "<group>"; };
+		6BF6A02E15171A9C004284E9 /* AlertTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertTests.m; sourceTree = "<group>"; };
+		6BF6A04315171B64004284E9 /* libExtension.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libExtension.a; path = "../../foundation/Extension/build/Release-iphoneos/libExtension.a"; sourceTree = "<group>"; };
+		6BF6A08215171C37004284E9 /* libFMEServer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFMEServer.a; path = "../../foundation/FMEServer/build/Release-iphoneos/libFMEServer.a"; sourceTree = "<group>"; };
+		6BF6A08815171E30004284E9 /* FMEServerAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMEServerAccountViewController.h; sourceTree = "<group>"; };
+		6BF6A08915171E30004284E9 /* FMEServerAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMEServerAccountViewController.m; sourceTree = "<group>"; };
+		6BF6A08B1517300F004284E9 /* FMEMessagesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMEMessagesTableViewController.h; sourceTree = "<group>"; };
+		6BF6A08C1517300F004284E9 /* FMEMessagesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = FMEMessagesTableViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BF69FF615171A9C004284E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B545F061627916500C725A1 /* SystemConfiguration.framework in Frameworks */,
+				6BDACF8A15199DC000EFD676 /* CoreLocation.framework in Frameworks */,
+				6BDACF8715199D3000EFD676 /* MapKit.framework in Frameworks */,
+				6B824DBB15185026008515E4 /* libNetwork.a in Frameworks */,
+				6BF6A08315171C37004284E9 /* libFMEServer.a in Frameworks */,
+				6BF6A04415171B64004284E9 /* libExtension.a in Frameworks */,
+				6BF69FFE15171A9C004284E9 /* UIKit.framework in Frameworks */,
+				6BF6A00015171A9C004284E9 /* Foundation.framework in Frameworks */,
+				6BF6A00215171A9C004284E9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BF6A01C15171A9C004284E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF6A02215171A9C004284E9 /* SenTestingKit.framework in Frameworks */,
+				6BF6A02315171A9C004284E9 /* UIKit.framework in Frameworks */,
+				6BF6A02415171A9C004284E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B803788151A448800E7F394 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B679514168309D4008E8F82 /* AppIcon.png */,
+				6B679515168309D4008E8F82 /* AppIcon@2x.png */,
+				6BA59626151A7FD300033FB9 /* Default@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6BF69FEE15171A9C004284E9 = {
+			isa = PBXGroup;
+			children = (
+				6B545F051627916500C725A1 /* SystemConfiguration.framework */,
+				6B3B1786161AD51600168D42 /* Default.png */,
+				6B3FC4F91618E27A00339D1A /* Default-568h@2x.png */,
+				6B3DD34E152A45FA0085104C /* iTunesArtwork */,
+				6B803788151A448800E7F394 /* Resources */,
+				6BF6A00315171A9C004284E9 /* Alert */,
+				6BF6A02715171A9C004284E9 /* AlertTests */,
+				6BF69FFC15171A9C004284E9 /* Frameworks */,
+				6BF69FFA15171A9C004284E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BF69FFA15171A9C004284E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BF69FF915171A9C004284E9 /* Alert.app */,
+				6BF6A02015171A9C004284E9 /* AlertTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BF69FFC15171A9C004284E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BF6A04315171B64004284E9 /* libExtension.a */,
+				6BF6A08215171C37004284E9 /* libFMEServer.a */,
+				6B824DBA15185026008515E4 /* libNetwork.a */,
+				6BDACF8915199DC000EFD676 /* CoreLocation.framework */,
+				6BDACF8615199D3000EFD676 /* MapKit.framework */,
+				6BF69FFD15171A9C004284E9 /* UIKit.framework */,
+				6BF69FFF15171A9C004284E9 /* Foundation.framework */,
+				6BF6A00115171A9C004284E9 /* CoreGraphics.framework */,
+				6BF6A02115171A9C004284E9 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BF6A00315171A9C004284E9 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				6B958FE41795C01C00D44F30 /* FMEMessageEditController.h */,
+				6B958FE51795C01C00D44F30 /* FMEMessageEditController.m */,
+				6B82C59C15E765C8002FD1D5 /* FMEActivityIndicatorTitleView.h */,
+				6B82C59D15E765C8002FD1D5 /* FMEActivityIndicatorTitleView.m */,
+				6B7E2E2415AD51BF00E46548 /* FMEDistanceFilterViewController.h */,
+				6B7E2E2515AD51BF00E46548 /* FMEDistanceFilterViewController.m */,
+				6B7E2E2615AD51BF00E46548 /* FMETimeIntervalViewController.h */,
+				6B7E2E2715AD51BF00E46548 /* FMETimeIntervalViewController.m */,
+				6B4EAA771517F5AF007940F2 /* FMETopicsViewController.h */,
+				6B4EAA781517F5AF007940F2 /* FMETopicsViewController.m */,
+				6BA9C51815ACC66500484FFC /* FMETopicDescriptionViewController.h */,
+				6BA9C51915ACC66500484FFC /* FMETopicDescriptionViewController.m */,
+				6BF6A08B1517300F004284E9 /* FMEMessagesTableViewController.h */,
+				6BF6A08C1517300F004284E9 /* FMEMessagesTableViewController.m */,
+				6BF6A08815171E30004284E9 /* FMEServerAccountViewController.h */,
+				6BF6A08915171E30004284E9 /* FMEServerAccountViewController.m */,
+				6B79B24E159FA9CA000216F0 /* FMESettingsViewController.h */,
+				6B79B24F159FA9CA000216F0 /* FMESettingsViewController.m */,
+				6BF6A00C15171A9C004284E9 /* FMEAppDelegate.h */,
+				6BF6A00D15171A9C004284E9 /* FMEAppDelegate.m */,
+				6BF6A00F15171A9C004284E9 /* MainStoryboard_iPhone.storyboard */,
+				6BF6A01215171A9C004284E9 /* MainStoryboard_iPad.storyboard */,
+				6BDACF8B1519A82500EFD676 /* FMEMapViewController.h */,
+				6BDACF8C1519A82500EFD676 /* FMEMapViewController.m */,
+				6B803785151A233700E7F394 /* FMEMessagesTableViewCell.h */,
+				6B803786151A233700E7F394 /* FMEMessagesTableViewCell.m */,
+				6B8B24E5151ADEB500D5EF29 /* FMEPinDetailsViewController.h */,
+				6B8B24E6151ADEB600D5EF29 /* FMEPinDetailsViewController.m */,
+				6BE2D32D15B21B9B00CFEEAF /* FMELocationManager.h */,
+				6BE2D32E15B21B9B00CFEEAF /* FMELocationManager.m */,
+				6B81C58115D37183002E1AFB /* FMEAboutViewController.h */,
+				6B81C58215D37183002E1AFB /* FMEAboutViewController.m */,
+				6B18E8C017E8333D00B79E39 /* Images.xcassets */,
+				6BF6A00415171A9C004284E9 /* Supporting Files */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		6BF6A00415171A9C004284E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BF6A00515171A9C004284E9 /* Alert-Info.plist */,
+				6BF6A00615171A9C004284E9 /* InfoPlist.strings */,
+				6BF6A00915171A9C004284E9 /* main.m */,
+				6BF6A00B15171A9C004284E9 /* Alert-Prefix.pch */,
+				6B8DCBD715BFC73600A3CE55 /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6BF6A02715171A9C004284E9 /* AlertTests */ = {
+			isa = PBXGroup;
+			children = (
+				6BF6A02D15171A9C004284E9 /* AlertTests.h */,
+				6BF6A02E15171A9C004284E9 /* AlertTests.m */,
+				6BF6A02815171A9C004284E9 /* Supporting Files */,
+			);
+			path = AlertTests;
+			sourceTree = "<group>";
+		};
+		6BF6A02815171A9C004284E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BF6A02915171A9C004284E9 /* AlertTests-Info.plist */,
+				6BF6A02A15171A9C004284E9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BF69FF815171A9C004284E9 /* Alert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BF6A03215171A9C004284E9 /* Build configuration list for PBXNativeTarget "Alert" */;
+			buildPhases = (
+				6BF69FF515171A9C004284E9 /* Sources */,
+				6BF69FF615171A9C004284E9 /* Frameworks */,
+				6BF69FF715171A9C004284E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alert;
+			productName = Alert;
+			productReference = 6BF69FF915171A9C004284E9 /* Alert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6BF6A01F15171A9C004284E9 /* AlertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BF6A03515171A9C004284E9 /* Build configuration list for PBXNativeTarget "AlertTests" */;
+			buildPhases = (
+				6BF6A01B15171A9C004284E9 /* Sources */,
+				6BF6A01C15171A9C004284E9 /* Frameworks */,
+				6BF6A01D15171A9C004284E9 /* Resources */,
+				6BF6A01E15171A9C004284E9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BF6A02615171A9C004284E9 /* PBXTargetDependency */,
+			);
+			name = AlertTests;
+			productName = AlertTests;
+			productReference = 6BF6A02015171A9C004284E9 /* AlertTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BF69FF015171A9C004284E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FME;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Safe Software Inc.";
+				TargetAttributes = {
+					6BF69FF815171A9C004284E9 = {
+						DevelopmentTeam = B3R9YZM37G;
+					};
+				};
+			};
+			buildConfigurationList = 6BF69FF315171A9C004284E9 /* Build configuration list for PBXProject "Alert" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hant",
+			);
+			mainGroup = 6BF69FEE15171A9C004284E9;
+			productRefGroup = 6BF69FFA15171A9C004284E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BF69FF815171A9C004284E9 /* Alert */,
+				6BF6A01F15171A9C004284E9 /* AlertTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BF69FF715171A9C004284E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF6A00815171A9C004284E9 /* InfoPlist.strings in Resources */,
+				6BF6A01115171A9C004284E9 /* MainStoryboard_iPhone.storyboard in Resources */,
+				6BF6A01415171A9C004284E9 /* MainStoryboard_iPad.storyboard in Resources */,
+				6BA59627151A7FD300033FB9 /* Default@2x.png in Resources */,
+				6B18E8C117E8333D00B79E39 /* Images.xcassets in Resources */,
+				6B3DD34F152A45FA0085104C /* iTunesArtwork in Resources */,
+				6B8DCBD915BFC73600A3CE55 /* Localizable.strings in Resources */,
+				6B3FC4FA1618E27A00339D1A /* Default-568h@2x.png in Resources */,
+				6B3B1787161AD51600168D42 /* Default.png in Resources */,
+				6B679516168309D4008E8F82 /* AppIcon.png in Resources */,
+				6B679517168309D4008E8F82 /* AppIcon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BF6A01D15171A9C004284E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF6A02C15171A9C004284E9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BF6A01E15171A9C004284E9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BF69FF515171A9C004284E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF6A00A15171A9C004284E9 /* main.m in Sources */,
+				6BF6A00E15171A9C004284E9 /* FMEAppDelegate.m in Sources */,
+				6BF6A08A15171E30004284E9 /* FMEServerAccountViewController.m in Sources */,
+				6BF6A08D1517300F004284E9 /* FMEMessagesTableViewController.m in Sources */,
+				6B4EAA791517F5AF007940F2 /* FMETopicsViewController.m in Sources */,
+				6BDACF8D1519A82500EFD676 /* FMEMapViewController.m in Sources */,
+				6B803787151A233700E7F394 /* FMEMessagesTableViewCell.m in Sources */,
+				6B8B24E7151ADEB600D5EF29 /* FMEPinDetailsViewController.m in Sources */,
+				6B79B250159FA9CA000216F0 /* FMESettingsViewController.m in Sources */,
+				6BA9C51A15ACC66500484FFC /* FMETopicDescriptionViewController.m in Sources */,
+				6B7E2E2815AD51BF00E46548 /* FMEDistanceFilterViewController.m in Sources */,
+				6B7E2E2915AD51BF00E46548 /* FMETimeIntervalViewController.m in Sources */,
+				6BE2D32F15B21B9B00CFEEAF /* FMELocationManager.m in Sources */,
+				6B81C58315D37183002E1AFB /* FMEAboutViewController.m in Sources */,
+				6B82C59E15E765C8002FD1D5 /* FMEActivityIndicatorTitleView.m in Sources */,
+				6B958FE61795C01C00D44F30 /* FMEMessageEditController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BF6A01B15171A9C004284E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF6A02F15171A9C004284E9 /* AlertTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BF6A02615171A9C004284E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BF69FF815171A9C004284E9 /* Alert */;
+			targetProxy = 6BF6A02515171A9C004284E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B8DCBD715BFC73600A3CE55 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B8DCBD815BFC73600A3CE55 /* en */,
+				6B8DCBDB15BFC74000A3CE55 /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		6BF6A00615171A9C004284E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BF6A00715171A9C004284E9 /* en */,
+				6B6EAF0015D5BA33006B20C6 /* zh-Hant */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6BF6A00F15171A9C004284E9 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BF6A01015171A9C004284E9 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		6BF6A01215171A9C004284E9 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BF6A01315171A9C004284E9 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		6BF6A02A15171A9C004284E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BF6A02B15171A9C004284E9 /* en */,
+				6B7D4F8915BD054900B15626 /* zh-Hant */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BF6A03015171A9C004284E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Safe Software Inc (B3R9YZM37G)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Safe Software Inc (B3R9YZM37G)";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 0021;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "58E62F40-A52D-4E72-9B89-29C5484A6B27";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		6BF6A03115171A9C004284E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Safe Software Inc (B3R9YZM37G)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Safe Software Inc (B3R9YZM37G)";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 0021;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "58E62F40-A52D-4E72-9B89-29C5484A6B27";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "58E62F40-A52D-4E72-9B89-29C5484A6B27";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		6BF6A03315171A9C004284E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Safe Software Inc (B3R9YZM37G)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Safe Software Inc (B3R9YZM37G)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Alert/Alert-Prefix.pch";
+				INFOPLIST_FILE = "Alert/Alert-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "58E62F40-A52D-4E72-9B89-29C5484A6B27";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "../../**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6BF6A03415171A9C004284E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Safe Software Inc (B3R9YZM37G)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Safe Software Inc (B3R9YZM37G)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Alert/Alert-Prefix.pch";
+				INFOPLIST_FILE = "Alert/Alert-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "58E62F40-A52D-4E72-9B89-29C5484A6B27";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "58E62F40-A52D-4E72-9B89-29C5484A6B27";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "../../**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6BF6A03615171A9C004284E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Alert.app/Alert";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Alert/Alert-Prefix.pch";
+				INFOPLIST_FILE = "AlertTests/AlertTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		6BF6A03715171A9C004284E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Alert.app/Alert";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Alert/Alert-Prefix.pch";
+				INFOPLIST_FILE = "AlertTests/AlertTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BF69FF315171A9C004284E9 /* Build configuration list for PBXProject "Alert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BF6A03015171A9C004284E9 /* Debug */,
+				6BF6A03115171A9C004284E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BF6A03215171A9C004284E9 /* Build configuration list for PBXNativeTarget "Alert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BF6A03315171A9C004284E9 /* Debug */,
+				6BF6A03415171A9C004284E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BF6A03515171A9C004284E9 /* Build configuration list for PBXNativeTarget "AlertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BF6A03615171A9C004284E9 /* Debug */,
+				6BF6A03715171A9C004284E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BF69FF015171A9C004284E9 /* Project object */;
+}

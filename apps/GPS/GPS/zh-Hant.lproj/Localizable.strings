@@ -1,0 +1,261 @@
+/*============================================================================= 
+ 
+   Name     : Localizable.strings
+ 
+   System   : FME Reporter iOS App
+ 
+   Language : N/A
+ 
+   Purpose  : Localizable Strings (zh-Hant)
+ 
+         Copyright (c) 2013 - 2014, Safe Software Inc. All rights reserved. 
+ 
+   Redistribution and use of this sample code in source and binary forms, with  
+   or without modification, are permitted provided that the following  
+   conditions are met: 
+   * Redistributions of source code must retain the above copyright notice,  
+     this list of conditions and the following disclaimer. 
+   * Redistributions in binary form must reproduce the above copyright notice,  
+     this list of conditions and the following disclaimer in the documentation  
+     and/or other materials provided with the distribution. 
+ 
+   THIS SAMPLE CODE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS  
+   "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED  
+   TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR  
+   PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR  
+   CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,  
+   EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,  
+   PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;  
+   OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,  
+   WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR  
+   OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SAMPLE CODE, EVEN IF  
+   ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
+ 
+=============================================================================*/ 
+
+/* No comment provided by engineer. */
+"%@ Meters" = "%@ 米";
+
+/* No comment provided by engineer. */
+"%i Min" = "%i 分鐘";
+
+/* No comment provided by engineer. */
+"%i Sec" = "%i 秒";
+
+/* No comment provided by engineer. */
+"%u Subscribed" = "%u 個訂閱";
+
+/* No comment provided by engineer. */
+"%u Tracked" = "%u 個追踪";
+
+/* No comment provided by engineer. */
+"<New Alert>" = "新訊息";
+
+/* No comment provided by engineer. */
+"Account" = "帳戶";
+
+/* No comment provided by engineer. */
+"Alerts" = "訊息";
+
+/* No comment provided by engineer. */
+"Cancel" = "取消";
+
+/* No comment provided by engineer. */
+"Close" = "關閉";
+
+/* No comment provided by engineer. */
+"Details" = "詳情";
+
+/* No comment provided by engineer. */
+"Disabled" = "不使用";
+
+/* No comment provided by engineer. */
+"Do you want to remove all pins?" = "你要刪除所有位置標記嗎？";
+
+/* No comment provided by engineer. */
+"Do you want to save the change and remove all previous subscriptions?" = "你想保存更改並刪除所有先前的訂閱嗎？";
+
+/* No comment provided by engineer. */
+"Don't Save" = "不保存";
+
+/* No comment provided by engineer. */
+"Finish" = "結束";
+
+/* No comment provided by engineer. */
+"Loading Topics\nPlease Wait ..." = "正在讀入主題\n請稍候 ...";
+
+/* No comment provided by engineer. */
+"Login Failure" = "登錄失敗";
+
+/* No comment provided by engineer. */
+"Map View" = "地圖";
+
+/* No comment provided by engineer. */
+"Please check your network connection and your account information." = "請檢查您的網絡連接和您的帳戶資料。";
+
+/* No comment provided by engineer. */
+"Please make sure the network settings, host and login information are correct" = "請確保網絡設置，伺服器和帳戶資料是正確的。";
+
+/* No comment provided by engineer. */
+"Powered by FME Server" = "由 FME 伺服器監控";
+
+/* No comment provided by engineer. */
+"Remove All Pins" = "刪除所有位置標記";
+
+/* No comment provided by engineer. */
+"Retry" = "重試";
+
+/* No comment provided by engineer. */
+"Save" = "保存";
+
+/* No comment provided by engineer. */
+"Settings" = "設定";
+
+/* No comment provided by engineer. */
+"Topics" = "主題";
+
+/* No comment provided by engineer. */
+"Unable To Load Topics" = "無法讀入主題";
+
+/* No comment provided by engineer. */
+"FME Server Account Information" = "FME 伺服器帳戶資料";
+
+/* No comment provided by engineer. */
+"Location Tracking" = "位置選項";
+
+/* No comment provided by engineer. */
+"Host" = "主機名稱";
+
+/* No comment provided by engineer. */
+"Username" = "用戶名稱";
+
+/* No comment provided by engineer. */
+"Password" = "密碼";
+
+/* No comment provided by engineer. */
+"Subscribed Topics" = "主題";
+
+/* No comment provided by engineer. */
+"Tracked Topics" = "主題";
+
+/* No comment provided by engineer. */
+"High Precision" = "精確定位";
+
+/* No comment provided by engineer. */
+"Time Interval" = "時間間隔";
+
+/* No comment provided by engineer. */
+"Distance Filter" = "距離過濾";
+
+/* No comment provided by engineer. */
+"1 Min" = "1 分鐘";
+
+/* No comment provided by engineer. */
+"%i Mins" = "%i 分鐘";
+
+/* No comment provided by engineer. */
+"1 Sec" = "1 秒";
+
+/* No comment provided by engineer. */
+"%i Secs" = "%i 秒";
+
+/* No comment provided by engineer. */
+"Previous subscriptions will be removed." = "當有訂閱的主題從以前的帳戶更改主機或用戶名，將刪除這些訂閱。";
+
+/* No comment provided by engineer. */
+"Set a time interval" = "在這裡設定發送設備位置的時間間隔。必須設置時間間隔或距離濾波器。如果沒有設置時間間隔（0分鐘0秒），距離過濾器將被自動設置為默認值。";
+
+/* No comment provided by engineer. */
+"Set a distance filter" = "在這裡設定發送設備位置的距離間隔。必須設置時間間隔或距離濾波器。如果沒有設置距離過濾（0米），時間間隔將被自動設置為默認值。";
+
+/* No comment provided by engineer. */
+"Version" = "版本";
+
+/* No comment provided by engineer. */
+"Safe Software Homepage" = "關於 Safe Software";
+
+/* No comment provided by engineer. */
+"FME Server Homepage" = "關於 FME 伺服器";
+
+/* No comment provided by engineer. */
+"FME Server Notification Service" = "關於 FME 伺服器通知服務";
+
+/* No comment provided by engineer. */
+"About" = "關於";
+
+/* No comment provided by engineer. */
+"Powered by FME Server" = "由 FME 伺服器監控";
+
+/* No comment provided by engineer. */
+"Copyright" = "2013年 版權為 Safe Software Inc. 所有。Safe Software Inc. 保留所有權利。";
+
+/* No comment provided by engineer. */
+"Verifying" = "確認中";
+
+/* No comment provided by engineer. */
+"Saving" = "保存中";
+
+/* No comment provided by engineer. */
+"Metadata" = "元數據";
+
+/* No comment provided by engineer. */
+"Entry" = "項";
+
+/* No comment provided by engineer. */
+"Entries" = "項";
+
+/* No comment provided by engineer. */
+"Edit Metadata" = "編輯元數據";
+
+/* No comment provided by engineer. */
+"New Metadata" = "新元數據";
+
+/* No comment provided by engineer. */
+"FME Reporter" = "FME Reporter";
+
+/* No comment provided by engineer. */
+"Key" = "鍵";
+
+/* No comment provided by engineer. */
+"Value" = "值";
+
+/* No comment provided by engineer. */
+"Send" = "報告";
+
+/* No comment provided by engineer. */
+"Auto Report Location" = "自動報告位置";
+
+/* No comment provided by engineer. */
+"Insufficient Server Info" = "伺服器帳戶資料不足";
+
+/* No comment provided by engineer. */
+"Alert View Message - Insufficient Server Info" = "請輸入主機，用戶名和密碼，然後選擇至少一個主題以報告您的當前位置。";
+
+/* No comment provided by engineer. */
+"Location Reported Successfully" = "成功報告位置";
+
+/* No comment provided by engineer. */
+"Unable To Report Location" = "無法報告位置";
+
+/* No comment provided by engineer. */
+"Host Unreachable" = "無法連接主機";
+
+/* No comment provided by engineer. */
+"Please check the network connection and the host name" = "請檢查網絡連線和主機名";
+
+/* No comment provided by engineer. */
+"Topic Not Found" = "主題已不存在";
+
+/* No comment provided by engineer. */
+"The topic %@ does not exist on the server any more. It will be removed from the device." = "主題%@已不存在伺服器上。它將被從設備中刪除。";
+
+/* No comment provided by engineer. */
+"The topics %@ do not exist on the server any more. They will be removed from the device." = "主題%@已不存在伺服器上。它將被從設備中刪除。";
+
+/* No comment provided by engineer. */
+"Failed to subscribe" = "訂閱失敗";
+
+/* No comment provided by engineer. */
+"Failed to cancel subscription" = "無法取消訂閱";
+
+
